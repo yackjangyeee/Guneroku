@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정보 입력</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        form {
+            text-align: left;
+            margin: 0 auto;
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        textarea,
+        input[type="file"],
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 15px 125px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>정보 입력</h1>
+    <form action="/save_store" method="post">
+        <label for="store_name">식당 이름:</label>
+        <input type="text" id="store_name" name="store_name" required>
+
+        <label for="category">카테고리:</label>
+        <input type="text" id="category" name="category">
+
+        <label for="phone_number">전화번호:</label>
+        <input type="tel" id="phone_number" name="phone_number">
+
+        <label for="menu">메뉴 정보:</label>
+        <textarea id="menu" name="menu"></textarea>
+
+        <label for="photo_url">사진 URL 저장:</label>
+        <input type="text" id="photo_url" name="photo_url">
+
+        <input type="submit" value="저장합니다.">
+    </form>
+
+    <!-- 엔드포인트로 이동할 버튼들을 추가합니다. -->
+    <button onclick="navigateToEndpoint('place_restaurant')">식당 정보 보기</button>
+    <button onclick="navigateToEndpoint('place_drink_alcohol')">술집 정보 보기</button>
+    <button onclick="navigateToEndpoint('place_drink_caffeine')">카페 정보 보기</button>
+    <button onclick="navigateToEndpoint('place_play_game')">PC방 정보 보기</button>
+    <button onclick="navigateToEndpoint('place_sing')">노래방 정보 보기</button>
+    <button onclick="navigateToEndpoint('place_exercise')">운동 시설 정보 보기</button>
+    <button onclick="navigateToEndpoint('place_convenience')">편의점 정보 보기</button>
+    <button onclick="navigateToEndpoint('place_book')">책방 정보 보기</button>
+    <button onclick="navigateToEndpoint('place_laundry')">빨래방 정보 보기</button>
+
+    <script>
+        // 엔드포인트로 이동하는 JavaScript 함수를 정의합니다.
+        function navigateToEndpoint(endpoint) {
+            // 각 버튼을 클릭할 때 해당 엔드포인트로 이동합니다.
+            window.location.href = `https://raitto-8364e82bcabf.herokuapp.com/${endpoint}`;
+        }
+    </script>
+</body>
+</html>

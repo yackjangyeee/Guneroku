@@ -1,0 +1,20 @@
+1. restaurantName
+2. phoneNumber
+3. menu
+4. photoUrl
+5. categori
+
+- 각 값들을 받으면 카테고리에 맞게 술집 식당 카페 등 에 대해서 배치
+
+- 
+
+
+
+1. 카테고리라는 유닛 생성(MyAPI.js)
+
+2. 각 카테고리에 맞는 조건어 입력(raitto)
+
+3. 
+
+
+

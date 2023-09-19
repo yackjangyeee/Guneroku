@@ -1,0 +1,39 @@
+식당 이름: 휘쿠버
+전화번호: 0507-1315-2456
+메뉴 정보: 카페, 디저트
+사진: /uploads/cafe-ficoobut.png
+ 
+식당 이름: 버니문
+전화번호: 050714253179
+메뉴 정보: 카페, 디저트
+사진: /uploads/cafe-bunnymoon.png
+  
+식당 이름: 프로스콘스-에리카점
+전화번호: 05049949374
+메뉴 정보: 베이커리
+사진: /uploads/cafe-proscons.png
+  
+식당 이름: 코이노커피
+전화번호: 050714757846
+메뉴 정보: 카페, 디저트
+사진: /uploads/cafe-koino.png
+
+식당 이름: 오토르테
+전화번호: 0507-1347-4943
+메뉴 정보: 카페, 디저트
+사진: /uploads/cafe-othortai.png  
+    식당 이름: 박승호
+    전화번호: 01010010101
+    메뉴 정보: 띄어쓰기 없이 되나?
+    사진: /uploads/spalshscreen.png
+  
+    식당 이름: sadf
+    전화번호: 123124124
+    메뉴 정보: 12weqwef
+    사진: /uploads/spalshscreen.png
+  
+    식당 이름: 한자공
+    전화번호: 01009120416
+    메뉴 정보: 1차
+    사진: /uploads/cafe-bunnymoon.png
+  
